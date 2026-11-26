@@ -1,0 +1,52 @@
+
+# SpendWise Budget Tracker
+
+## Project Description
+SpendWise is a simple budgeting application that helps users manage their money by setting a budget, recording expenses, and tracking their remaining balance.
+
+## Improvements Made This Week
+- Added an interactive budget tracker.
+- Added the ability to set a budget.
+- Added the ability to record multiple expenses.
+- Added automatic expense calculations.
+- Added budgeting feedback.
+- Improved the dashboard using JavaScript and DOM manipulation.
+
+## JavaScript Concepts Used
+
+### 1. Conditional Statements
+Conditional statements are used to check whether the user has entered valid information and whether expenses are within the budget.
+
+### 2. Arrays
+Arrays are used to store multiple expense records, including expense names and amounts.
+
+### 3. Loops
+For loops are used to calculate total expenses and display all expense records on the dashboard.
+
+### 4. DOM Manipulation
+DOM manipulation is used to update the budget, total expenses, remaining balance, and expense list directly on the webpage.
+
+### 5. Event Listeners
+Event listeners respond to button clicks when users set their budgets or add expenses.
+
+## Challenges and Solutions
+One challenge was connecting JavaScript to HTML elements. I solved this by using document.getElementById() to access webpage elements.
+
+Another challenge was calculating multiple expenses. I solved this by using arrays and loops to store and calculate expense records.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- GitHub
+
+## How to Use SpendWise
+1. Open the SpendWise application.
+2. Enter your budget.
+3. Click Set Budget.
+4. Enter an expense name and amount.
+5. Click Add Expense.
+6. View your total expenses and remaining balance.
+
+## Conclusion
+SpendWise demonstrates how JavaScript can make a budgeting application interactive through conditional statements, arrays, loops, DOM manipulation, and event listeners.
