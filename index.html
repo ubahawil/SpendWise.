@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SpendWise</h1>
+        <p>Manage your money wisely</p>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <h2>My Budget Dashboard</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>My Budget</h3>
+                    <p>KSh <span id="budgetDisplay">0.00</span></p>
+                </div>
+
+                <div class="card">
+                    <h3>Total Expenses</h3>
+                    <p>KSh <span id="totalExpenses">0.00</span></p>
+                </div>
+
+                <div class="card">
+                    <h3>Remaining Balance</h3>
+                    <p>KSh <span id="balance">0.00</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Set Your Budget</h2>
+            <input type="number" id="budget" placeholder="Enter your budget">
+            <button id="setBudget">Set Budget</button>
+        </section>
+
+        <section class="form-section">
+            <h2>Add an Expense</h2>
+            <input type="text" id="expenseName" placeholder="Expense name">
+            <input type="number" id="expenseAmount" placeholder="Expense amount">
+            <button id="addExpense">Add Expense</button>
+        </section>
+
+        <section class="expense-section">
+            <h2>Expense Records</h2>
+            <ul id="expenseList"></ul>
+        </section>
+
+        <p id="message">Welcome to SpendWise!</p>
+    </main>
+
+    <footer>
+        <p>SpendWise Budget Tracker | 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
