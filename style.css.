@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f2;
+    color: #26352b;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #176b3a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.dashboard {
+    margin-bottom: 30px;
+}
+
+.dashboard h2,
+.form-section h2,
+.expense-section h2 {
+    margin-bottom: 20px;
+    color: #176b3a;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    color: #176b3a;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.form-section,
+.expense-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #176b3a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #104d29;
+}
+
+#expenseList {
+    padding-left: 20px;
+}
+
+#expenseList li {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #e9f5ec;
+    border-radius: 6px;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    color: #176b3a;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #176b3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    main {
+        padding: 12px;
+    }
+}
